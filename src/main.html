@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="w-full bg-white border-b border-[#E0E0E0]">
+        <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[52px]">
+            <div class="flex items-center space-x-1 h-full">
+                <a href="#" class="flex items-center mr-8">
+                    <span class="text-[26px] font-bold text-[#00B451] tracking-tight">D</span>
+                    <span class="text-[22px] font-bold text-[#00B451] -ml-[2px] tracking-tight">ily</span>
+                    <span class="text-[13px] text-[#828282] font-normal ml-0.5 mt-2">.ru</span>
+                </a>
+                
+                <nav class="hidden md:flex items-center h-full text-[14px] font-medium text-[#4F4F4F]">
+                    <a href="#" class="hover:text-black px-4 flex items-center h-full transition-colors">Доска объявлений</a>
+                    <a href="#" class="hover:text-black px-4 flex items-center h-full transition-colors">Сервисный центр</a>
+                    <a href="#" class="bg-[#AEECCF] text-black px-5 flex items-center h-full font-medium transition-colors">Интернет-магазин Dily.ru</a>
+                    <a href="#" class="hover:text-black px-4 flex items-center h-full transition-colors">Скупка</a>
+                </nav>
+            </div>
+
+            <div class="flex items-center space-x-6 text-[14px] font-medium text-[#4F4F4F]">
+                <div class="flex items-center space-x-1 cursor-pointer hover:text-black transition-colors">
+                    <svg class="w-4 h-4 text-[#00B451]" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <span class="text-[#4F4F4F]">Москва</span>
+                    <svg class="w-3 h-3 text-[#828282]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+
+                <div class="flex items-center space-x-1.5 cursor-pointer hover:text-black transition-colors">
+                    <svg class="w-[18px] h-[18px] text-[#00B451]" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                    </svg>
+                    <span class="text-[#4F4F4F]">Вход/ регистрация</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full bg-white border-b border-[#F2F2F2] hidden lg:block">
+        <div class="max-w-[1200px] mx-auto px-4 flex items-center justify-between h-[64px] gap-4">
+            <div class="flex items-center space-x-6 shrink-0">
+                <button class="flex items-center space-x-2 text-[#00B451] font-medium text-[15px] hover:opacity-80 transition-opacity">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <span>Каталог товаров</span>
+                </button>
+
+                <a href="#" class="flex items-center space-x-2 text-[#666666] font-normal text-[15px] hover:text-black transition-colors">
+                    <svg class="w-5 h-5 text-[#828282]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    <span>Доставка и оплата</span>
+                </a>
+            </div>
+
+            <div class="flex-1 max-w-[560px] relative flex items-center">
+                <div class="absolute left-4 text-[#828282]">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <input type="text" placeholder="Я хочу купить..." class="w-full bg-[#F2F2F2] rounded-full pl-11 pr-24 py-2 text-[14px] focus:outline-none focus:bg-white border border-transparent focus:border-[#E0E0E0] transition-all placeholder-[#828282]">
+                <button class="absolute right-1 top-1 bottom-1 bg-[#D9D9D9] hover:bg-gray-400 text-[#333333] text-[14px] font-medium px-5 rounded-full transition-colors">
+                    Найти
+                </button>
+            </div>
+
+            <div class="flex items-center space-x-6 text-[#4F4F4F] shrink-0">
+                <a href="#" class="hover:text-black text-[14px] font-medium transition-colors">Поддержка</a>
+                
+                <button class="relative p-1 text-[#4F4F4F] hover:text-black transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                    </svg>
+                    <span class="absolute top-1 right-1 w-2 h-2 bg-[#00B451] rounded-full"></span>
+                </button>
+
+                <button class="p-1 text-[#4F4F4F] hover:text-black transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                </button>
+
+                <button class="p-1 text-[#4F4F4F] hover:text-black transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+<div class="bg-gray-100 flex justify-center items-center  p-4">
+     <div class="relative w-full max-w-6xl overflow-hidden rounded-2xl bg-gradient-to-r from-[#FFF5E9] via-[#F4FDFB] to-[#D1F7E9] border border-dashed border-gray-300 p-6 sm:p-12 flex flex-col md:flex-row items-center justify-between min-h-[380px] md:min-h-[420px]">
+        
+        <div class="z-10 flex flex-col items-center md:items-start text-center md:text-left space-y-4 md:space-y-6 w-full md:w-1/2">
+            
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-2xl sm:text-3xl lg:text-4xl font-bold text-[#F59E0B]">
+                <span>Скидки от</span>
+                <div class="flex items-center text-[#00C853]">
+                    <span class="border-4 border-[#00C853] px-2 py-0.5 rounded-lg mr-1 font-extrabold text-3xl sm:text-4xl">D</span>
+                    <span class="text-[#00C853] lowercase text-xl sm:text-2xl font-semibold">ily</span>
+                </div>
+            </div>
+
+            <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#F59E0B]">
+                На смартфоны Samsung
+            </h2>
+
+            <button class="mt-4 px-8 py-3 bg-[#00C853] hover:bg-[#00A844] text-white font-medium text-base sm:text-lg rounded-xl shadow-md transition-all duration-300 transform hover:scale-105">
+                Подробнее
+            </button>
+        </div>
+
+        <div class="relative w-full md:w-1/2 h-64 md:h-full mt-8 md:mt-0 flex items-center justify-center">
+
+            <div class="absolute bg-[#E3E3F8] w-28 h-28 rounded-3xl rotate-12 top-0 left-10 opacity-70 hidden sm:block"></div>
+            <div class="absolute bg-[#FFEAD2] w-36 h-36 rounded-full bottom-0 left-4 opacity-80 hidden sm:block"></div>
+            <div class="absolute bg-[#97EDC3] w-32 h-32 rounded-[40px] rotate-45 top-4 right-12 opacity-60 hidden sm:block font-sans"></div>
+            <img class="absolute w-24 sm:w-32 lg:w-56 transform -rotate-2 -translate-x-20 -translate-y-10 sm:-translate-x-28 sm:-translate-y-16 z-10 drop-shadow-xl lg:ml-[-100px]" 
+                 src="./images/image 175.png" alt="">
+
+            <img class="absolute w-32 sm:w-40 lg:w-38 transform rotate-12 translate-y-6 sm:translate-y-10 z-30 drop-shadow-2xl lg:ml-[-100px]" 
+                 src="./images/image 173.png" alt="Samsung Main">
+
+            <img class="absolute w-20 sm:w-28 lg:w-32 transform -rotate-12 translate-x-16 -translate-y-16 sm:translate-x-24 sm:-translate-y-24 z-10 drop-shadow-lg" 
+                 src="./images/image 174.png" alt="">
+
+            <img class="absolute w-24 sm:w-32 lg:w-36 transform rotate-12 translate-x-24 translate-y-4 sm:translate-x-36 sm:translate-y-6 z-20 drop-shadow-xl" 
+                 src="./images/image 177.png" alt="">
+        </div>
+
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-40">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#2C3E50]"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-gray-300"></span>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
